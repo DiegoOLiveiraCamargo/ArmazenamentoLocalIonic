@@ -7,9 +7,12 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular/lazy';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 
+//IMPORTAR O PACOTE DE ARMAZENAMENTO LOCAL
+import { IonicStorageModule } from '@ionic/storage-angular'
+
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, IonicStorageModule.forRoot()],
   providers: [
     { provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
   ],
