@@ -30,7 +30,7 @@ export class HomePage {
   }
 
   async salvarContato(){
-    if (this.indiceEdicao > 0) {
+    if (this.indiceEdicao >= 0) {
       await this.contatosService.atualizarContato(this.indiceEdicao, this.contato);
     } else{
       await this.contatosService.adicionarContato(this.contato);
