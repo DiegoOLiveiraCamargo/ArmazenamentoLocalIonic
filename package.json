@@ -1,5 +1,5 @@
 {
-  "name": "app-streamer-ionic",
+  "name": "armazenamento-local-ionic",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
@@ -45,5 +45,5 @@
     "typescript-eslint": "^8.61.0",
     "vitest": "^4.0.8"
   },
-  "description": "Catalogo demonstrativo de filmes, series e atores"
+  "description": "Armazenamento local no Ionic, para entender funcionalidades"
 }
