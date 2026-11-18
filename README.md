@@ -13,8 +13,6 @@ O repositório não contém capturas de tela nem um link público de demonstraç
 - Editar e excluir contatos.
 - Persistir os dados localmente usando o Ionic Storage.
 
-**Limitação observada:** a rotina de salvamento verifica se o índice de edição é maior que zero. Por isso, editar o primeiro contato da lista (índice zero) pode cadastrá-lo novamente em vez de atualizá-lo.
-
 ## Tecnologias
 
 - **Interface:** Angular 22, Ionic Angular 9 e SCSS.
